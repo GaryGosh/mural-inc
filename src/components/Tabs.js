@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Tabs.css";
 
 function Tabs({ values }) {
+  const [selectedTab, setSelectedTab] = useState("All Items");
   const handleTabClick = (e) => {
-    console.log(e);
-    console.log("see : ", e.target.innerText);
+    if (e.target.className === "tab ") {
+      console.log("see : ", e.target.innerText);
+      setSelectedTab(e.target.innerText);
+    }
   };
   return (
     <div className="tabs-container" onClick={(e) => handleTabClick(e)}>
       {values?.map((val) => (
-        <div className="tab" key={val.name} value={val.name}>
+        <div
+          className={`tab ${selectedTab === val.name ? "active" : ""}`}
+          key={val.name}
+          value={val.name}
+        >
           {val.name}
         </div>
       ))}

@@ -1,18 +1,28 @@
 .tabs-container {
-  width: 100%;
-  height: 80px;
+  /* width: 100%; */
+  height: 30px;
   padding: 10px 5px;
   background: #000;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  font-size: 20px;
   border-radius: 16px;
+  margin: 10px;
 }
 
 .tab {
   color: white;
-  min-width: 30%;
-  height: 60px;
+  min-width: 18%;
+  height: 25px;
+  text-align: center;
+}
+
+.active {
+  color: black;
   background: white;
   border-radius: 16px;
+  padding: 8px 12px;
 }

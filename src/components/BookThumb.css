@@ -1,0 +1,23 @@
+.booklist-container {
+  /* width: 100px; */
+  font-family: "PT Serif", serif;
+  margin-bottom: 12px;
+}
+.book-thumb {
+  object-fit: cover;
+  /* width: 100%; */
+  max-height: 210px;
+  min-height: 210px;
+  min-width: 145px;
+  max-width: 145px;
+  transition: transform 450ms;
+  border-radius: 16px;
+}
+
+.book-name {
+  font-weight: 600;
+}
+
+.author-name {
+  color: grey;
+}
