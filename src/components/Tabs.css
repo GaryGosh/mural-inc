@@ -2,27 +2,28 @@
   /* width: 100%; */
   height: 30px;
   padding: 10px 5px;
-  background: #000;
+  background: #fff;
   color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "EB Garamond", serif;
-  font-size: 20px;
+  font-family: "PT Serif", serif;
+  font-size: 17px;
   border-radius: 16px;
-  margin: 10px;
+  margin: 10px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .tab {
-  color: white;
+  color: #000;
   min-width: 18%;
   height: 25px;
   text-align: center;
 }
 
 .active {
-  color: black;
-  background: white;
+  color: #fff;
+  background: #5880f2;
   border-radius: 16px;
   padding: 8px 12px;
 }

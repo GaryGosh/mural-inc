@@ -7,7 +7,7 @@ import "./Library.css";
 function Libarary() {
   return (
     <div>
-      <h2>Library</h2>
+      <h2 className="row-title">Library</h2>
 
       <Tabs values={LIBRARY_TABS_OPTION} />
       <div className="books-wrapper">
