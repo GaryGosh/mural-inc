@@ -1,4 +1,4 @@
-export const blackSwan = [
+export const BLACK_SWAN = [
   {
     title: "CHAPTER 1",
     mainBody: "What is a Black Swan Event ?",

@@ -13,3 +13,15 @@
   width: 30px;
   height: 30px;
 }
+
+.nav-btns {
+  margin: 10px;
+}
+
+.nav-btn-wrapper {
+  text-align: right;
+}
+
+.nav-btn-wrapper > img:first-child {
+  margin-right: 10px;
+}
