@@ -47,14 +47,16 @@ function Player() {
         />
       </div>
       <div className="book">
-        <div>
+        <div className="book-content">
           {bookData && bookData.type === "chapterTitle" ? (
-            <>
-              <div key={bookData.title}>{bookData.title}</div>
+            <div className="book-title-wrapper">
+              <div className="book-title" key={bookData.title}>
+                {bookData.title}
+              </div>
               <div key={bookData.slide}>{bookData.mainBody}</div>
-            </>
+            </div>
           ) : (
-            <div>{bookData && bookData.mainBody}</div>
+            <div className="story">{bookData && bookData.mainBody}</div>
           )}
         </div>
       </div>

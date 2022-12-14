@@ -5,6 +5,35 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.book-content {
+  font-family: "PT Serif", serif;
+  transition: 450ms all;
+  height: 100%;
+}
+
+.book-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 100%;
+}
+
+.book-title {
+  margin-bottom: 15px;
+}
+
+.story {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  font-size: 18px;
+}
+
 .back-btn {
   margin: 20px 10px 0 10px;
 }
