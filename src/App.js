@@ -1,11 +1,17 @@
 // import Vangough from "./assets/vangough.png";
 
+import { useNavigate } from "react-router-dom";
 import "./App.css";
 import BookBanner from "./components/BookBanner";
 import GoalBanner from "./components/GoalBanner";
 import { BOOKS_LIBRARY } from "./constants/constants";
 
 function App() {
+  const navigate = useNavigate();
+
+  const goToPlayer = () => {
+    navigate("/read", {});
+  };
   return (
     <div className="home">
       <div className="mural">
@@ -23,7 +29,7 @@ function App() {
           </div>
         ))}
       </div>
-      <div className="player-wrapper">
+      <div className="player-wrapper" onClick={() => goToPlayer()}>
         <div className="player">
           <img
             className="playing"
