@@ -1,0 +1,15 @@
+.book {
+  height: 80vh;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.back-btn {
+  margin: 20px 10px 0 10px;
+}
+
+.back-icon {
+  width: 30px;
+  height: 30px;
+}
