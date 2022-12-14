@@ -11,6 +11,24 @@
   position: sticky;
   top: 0;
   z-index: 3;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.m {
+  color: #b34229;
+}
+.u {
+  color: #180e09;
+}
+.r {
+  color: #e78f73;
+}
+.a {
+  color: #084249;
+}
+.l {
+  color: #d3a361;
 }
 
 .home-carousel {
@@ -20,4 +38,63 @@
 
 .home-carousel::-webkit-scrollbar {
   display: none;
+}
+
+.player-wrapper {
+  background: #514d57;
+  font-family: "Noto Sans", sans-serif;
+  color: #fafafa;
+  padding: 10px 13px;
+  position: sticky;
+  bottom: 0;
+}
+
+.player {
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.playing {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.title {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+.continue {
+  font-size: 12px;
+}
+
+.progress {
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  display: flex;
+  height: 9px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 10px;
+  width: 0;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 68%;
+  }
 }
