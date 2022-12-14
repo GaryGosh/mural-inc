@@ -1,0 +1,29 @@
+.goal-banner-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #eeeeee;
+  border-radius: 16px;
+  margin: 0 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.goal-block,
+.current-streak {
+  text-align: center;
+}
+
+.medium-font {
+  font-weight: 600;
+}
+
+.thin-font {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.goal-block {
+}
+
+.seperator {
+  border: 1px solid #eeeeee;
+}

@@ -1,0 +1,34 @@
+.book-banner-container {
+  margin: 15px;
+  position: relative;
+}
+
+.book-banner {
+  object-fit: cover;
+  max-height: 410px;
+  min-height: 410px;
+  min-width: 245px;
+  max-width: 245px;
+  transition: 450ms;
+  border-radius: 16px;
+}
+
+.book-description-wrapper {
+  font-family: "PT Serif", serif;
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
+  background-color: rgba(126, 85, 85, 0.5); */
+  padding: 10px;
+}
+
+.book-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.author-name {
+  color: grey;
+}
+
+.tagline {
+}

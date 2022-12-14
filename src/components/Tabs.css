@@ -26,4 +26,6 @@
   background: #5880f2;
   border-radius: 16px;
   padding: 8px 12px;
+  width: 90px;
+  transition: 0.4s;
 }
