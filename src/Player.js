@@ -65,7 +65,7 @@ function Player() {
               <div className="img-wrapper">
                 <img
                   className="story-image"
-                  src={bookData.imageUrl}
+                  src={bookData?.imageUrl}
                   alt="swan"
                 />
                 {bookData && bookData.animText ? (
