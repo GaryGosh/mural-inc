@@ -53,10 +53,26 @@ function Player() {
               <div className="book-title" key={bookData.title}>
                 {bookData.title}
               </div>
-              <div key={bookData.slide}>{bookData.mainBody}</div>
+              <div className="book-title-content" key={bookData.slide}>
+                {bookData.mainBody.split(" ").map((word) => (
+                  <span>{`${word} `}</span>
+                ))}
+              </div>
             </div>
           ) : (
-            <div className="story">{bookData && bookData.mainBody}</div>
+            <div className="story-wrapper">
+              <div className="story">{bookData && bookData.mainBody}</div>
+              <div className="img-wrapper">
+                <img
+                  className="story-image"
+                  src={bookData.imageUrl}
+                  alt="swan"
+                />
+                {bookData && bookData.animText ? (
+                  <div className="animText">{bookData.animText}</div>
+                ) : null}
+              </div>
+            </div>
           )}
         </div>
       </div>
