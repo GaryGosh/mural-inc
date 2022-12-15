@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mural-inc/static/css/main.a291323f.css",
-    "main.js": "/mural-inc/static/js/main.f3e16349.js",
-    "static/js/787.bbd57285.chunk.js": "/mural-inc/static/js/787.bbd57285.chunk.js",
-    "index.html": "/mural-inc/index.html",
-    "main.a291323f.css.map": "/mural-inc/static/css/main.a291323f.css.map",
-    "main.f3e16349.js.map": "/mural-inc/static/js/main.f3e16349.js.map",
-    "787.bbd57285.chunk.js.map": "/mural-inc/static/js/787.bbd57285.chunk.js.map"
+    "main.css": "/static/css/main.a291323f.css",
+    "main.js": "/static/js/main.9f27a6b7.js",
+    "static/js/787.bbd57285.chunk.js": "/static/js/787.bbd57285.chunk.js",
+    "index.html": "/index.html",
+    "main.a291323f.css.map": "/static/css/main.a291323f.css.map",
+    "main.9f27a6b7.js.map": "/static/js/main.9f27a6b7.js.map",
+    "787.bbd57285.chunk.js.map": "/static/js/787.bbd57285.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a291323f.css",
-    "static/js/main.f3e16349.js"
+    "static/js/main.9f27a6b7.js"
   ]
 }
