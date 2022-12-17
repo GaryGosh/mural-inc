@@ -62,6 +62,8 @@
   top: 130px;
   left: 105px;
   color: white;
+  font-weight: bold;
+  text-shadow: 3px 3px 20px #625c5f, -2px 1px 30px #353334;
   font-size: 40px;
   transform: scale2(0.94);
   animation: scale2 3s forwards cubic-bezier(0.5, 1, 0.89, 1);

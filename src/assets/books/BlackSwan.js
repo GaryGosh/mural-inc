@@ -73,6 +73,7 @@ export const BLACK_SWAN = [
     type: "content",
     imageUrl:
       "https://mural-assets.s3.ap-northeast-1.amazonaws.com/black-swan/black+swan+rising.jpg",
+    animText: "Y'all WRONG, BITCH",
     chapter: 1,
     slide: 8,
   },
@@ -96,5 +97,12 @@ export const BLACK_SWAN = [
       "https://mural-assets.s3.ap-northeast-1.amazonaws.com/black-swan/last.png",
     chapter: 1,
     slide: 10,
+  },
+  {
+    title: "",
+    mainBody: "End of CHAPTER 1",
+    type: "chapterTitle",
+    chapter: 1,
+    slide: 11,
   },
 ];
