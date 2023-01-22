@@ -29,6 +29,22 @@ function App() {
           </div>
         ))}
       </div>
+
+      <div className="home-carousel">
+        {BOOKS_LIBRARY.map((book) => (
+          <div>
+            <BookBanner booksList={book} />
+          </div>
+        ))}
+      </div>
+
+      <div className="home-carousel">
+        {BOOKS_LIBRARY.map((book) => (
+          <div>
+            <BookBanner booksList={book} />
+          </div>
+        ))}
+      </div>
       <div className="player-wrapper" onClick={() => goToPlayer()}>
         <div className="player">
           <img

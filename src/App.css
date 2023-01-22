@@ -41,12 +41,19 @@
 }
 
 .player-wrapper {
-  background: #514d57;
   font-family: "Noto Sans", sans-serif;
-  color: #fafafa;
+  /* color: #fafafa; */
   padding: 10px 13px;
   position: sticky;
   bottom: 0;
+  /* right: 3 !important; */
+  color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(33px);
+  background-blend-mode: overlay;
+  box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+  box-sizing: border-box;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .player {
